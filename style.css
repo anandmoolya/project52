@@ -1,0 +1,109 @@
+.head{
+      
+    background-color:white;
+    border:solid;
+     }
+  
+     .note{
+       background-color: red;
+       border: dotted;
+     }
+  
+  .grid {
+    background: darkred;
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: last baseline;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  
+  .camel {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:gold;
+  }
+  
+  
+  .chameleon {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:yellowgreen;
+  }
+  
+  .cicada {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+    background-color: orange;
+  }
+  
+  .panda {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+    background-color:blue;
+  }
+  
+  .pigeon {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:green;
+  }
+  
+  .teddy {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:indigo;
+  }
+  a:link{
+    
+    color: white;
+  }
+  a:visited{
+    color: white;
+  }
+  .camel:hover{
+    transform: scale(1.2);
+    
+  }
+  .camelimg{
+    position: relative;
+}
+.camelimg p{
+  color: #F0F8FF;
+  font-size: 55px;
+  font-family: fantasy;
+  position: absolute;
+top: 10%;
+left: 50%;
+transform:translate(-50%,-50%) ;
+
+
+
+
+}
+
